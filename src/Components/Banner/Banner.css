@@ -1,0 +1,17 @@
+.w-full{
+    position: relative;
+    height: 450px;
+}
+
+.NameStrip{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px;
+    background-color: rgb(97, 113, 113);
+    opacity: 0.8;
+    
+    
+}

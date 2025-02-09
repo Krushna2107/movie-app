@@ -1,0 +1,30 @@
+.card{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 230px;
+    width: 130px;
+    border-radius: 10px;
+    background-image: url(https://www.tallengestore.com/cdn/shop/products/Joker_-_Put_On_A_Happy_Face_-_Joaquin_Phoenix_-_Hollywood_English_Movie_Poster_3_0e557717-f9ae-4d45-82c3-27e08c2a9eeb.jpg?v=1579504984);
+    background-size: cover;
+    display: flex;
+    float: left;
+    margin: 10px;
+}
+.card:hover{
+    cursor: pointer;
+    scale: 1.02;
+    transition-duration: 300ms;
+    box-shadow: 0px 0px 10px 8px grey;
+}
+.title{
+    position: absolute;
+    bottom: 0px;
+    color: aliceblue;
+    background-color: rgb(15, 16, 16);
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    opacity: 0.6;
+    border-radius: 10px;
+}
